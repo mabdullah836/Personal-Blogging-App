@@ -1,0 +1,173 @@
+.textArea {
+    margin-top: 30px;
+    width: 881px;
+    height: 330px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px
+}
+
+.textArea input {
+    width: 760px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+
+}
+
+.textArea textarea {
+    width: 760px;
+    height: 114px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+.textArea_btn {
+    width: 760px;
+
+}
+
+.textArea_btn button {
+    padding: 10px, 16px, 10px, 16px;
+    height: 35px;
+    width: 138px;
+    border: none;
+    outline: none;
+    background-color: #7749F8;
+    color: white;
+}
+
+.textArea_btn button:hover {
+    opacity: 0.5;
+}
+
+.blogs_container {
+    margin-top: 40px;
+}
+
+.blogs_container h3 {
+    font-weight: 700;
+}
+
+.blog {
+    width: 881px;
+    height: auto;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.blog_items {
+    width: 568px;
+    height: 85px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blog_img {
+    width: 80px;
+    height: 80px;
+}
+
+.blog_img img {
+    width: 100%;
+}
+
+.blog_title {
+    width: 100%;
+    height: auto;
+
+}
+
+.blog_subTitle {
+    width: 275px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    color: #6C757D;
+
+
+}
+
+.blog_title h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.blog_description {
+    margin-top: 25px;
+    width: 800px;
+    height: 336px;
+    margin-left: 15px;
+}
+
+
+@media (max-width: 1024px) {
+   .textArea{
+    width:90%;
+   }
+   .textArea input,.textArea textArea{
+    width: 90% !important;
+   }
+   .textArea_btn {
+    margin-left: 10px;
+   }
+   .blogs_container{
+    width: 100%;
+}
+
+} 
+
+ /* @media (max-width :767px){
+    .textArea{
+        width:100% !important;
+       }
+       .textArea input,.textArea textArea{
+        width: 90%;
+       } 
+ } */
+@media (max-width:992px){
+        
+            .textArea,.container{
+                width: 100% !important;
+            }
+        .textArea_btn{
+            width: 90%;
+            margin-left: 0px;
+        }
+        .textArea_btn button{
+            width: 100%;
+        }
+        .textArea input,.textArea textArea{
+            width: 90%;
+           } 
+            
+        }
+@media (max-width:568px){
+            
+        .textArea_btn{
+            width: 90%;
+            margin-left: 0px;
+        }
+        .textArea_btn button{
+            width: 100%;
+        }
+        .textArea input,.textArea textArea{
+            width: 90%;
+           } 
+
+        }

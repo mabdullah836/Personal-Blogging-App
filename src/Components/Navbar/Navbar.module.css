@@ -1,0 +1,44 @@
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+.navbar h5{
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.profile_btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    color:#FFFFFF;
+    font-size: 18px;
+    
+}
+.nav_btn{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.nav_btn:hover,.profile_btn:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:568px){
+    .navbar h5 {
+        font-size: 15px;
+    }
+    .nav_btn {
+        font-size: 15px;
+
+    }
+}
